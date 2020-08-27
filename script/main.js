@@ -32,26 +32,26 @@ const animationTimeline = () => {
     .to(".container", 0.1, {
       visibility: "visible"
     })
-    .from(".one", 0.7, {
+    .from(".one", 1, {
       opacity: 0,
       y: 10
     })
-    .from(".two", 0.4, {
+    .from(".two", 1, {
       opacity: 0,
       y: 10
     })
     .to(
       ".one",
-      0.7,
+      1,
       {
         opacity: 0,
         y: 10
       },
-      "+=2.5"
+      "+=10"
     )
     .to(
       ".two",
-      0.7,
+      1,
       {
         opacity: 0,
         y: 10
